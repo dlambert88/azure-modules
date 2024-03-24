@@ -1,3 +1,6 @@
+## Use Case
+This Terraform module facilitates the creation of an Azure Virtual Network (VNET), Subnets (SNET), and Route Tables per subnet. Each subnet is associated with its own Route Table, directing traffic to a Virtual Appliance next-hop. This setup allows for effective subnet segmentation, which can be managed using firewall policies. Additionally, a DNS server is configured to point to a DNS Proxy, enhancing network resolution capabilities.
+
 ## Requirements
 
 No requirements.
